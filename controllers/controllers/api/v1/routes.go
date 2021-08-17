@@ -1,6 +1,6 @@
-package controllers
+package v1
 
-import "github.com/rspindola/boilerplate_golang_api/api/middlewares"
+import "github.com/rspindola/boilerplate_golang_api/middlewares"
 
 func (s *Server) initializeRoutes() {
 

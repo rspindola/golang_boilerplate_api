@@ -8,8 +8,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
-	"github.com/rspindola/boilerplate_golang_api/api/controllers"
-	"github.com/rspindola/boilerplate_golang_api/api/models"
+	"github.com/rspindola/boilerplate_golang_api/controllers"
+	"github.com/rspindola/boilerplate_golang_api/models"
 )
 
 var server = controllers.Server{}

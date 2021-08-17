@@ -1,4 +1,4 @@
-package controllers
+package v1
 
 import (
 	"encoding/json"
@@ -9,10 +9,10 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"github.com/rspindola/boilerplate_golang_api/api/auth"
-	"github.com/rspindola/boilerplate_golang_api/api/models"
-	"github.com/rspindola/boilerplate_golang_api/api/responses"
-	"github.com/rspindola/boilerplate_golang_api/api/utils/formaterror"
+	"github.com/rspindola/boilerplate_golang_api/auth"
+	"github.com/rspindola/boilerplate_golang_api/helpers/responses"
+	"github.com/rspindola/boilerplate_golang_api/models"
+	"github.com/rspindola/boilerplate_golang_api/utils/formaterror"
 )
 
 func (server *Server) CreateUser(w http.ResponseWriter, r *http.Request) {

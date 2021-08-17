@@ -1,4 +1,4 @@
-package controllers
+package v1
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"    //mysql database driver
 	_ "github.com/jinzhu/gorm/dialects/postgres" //postgres database driver
 	_ "github.com/jinzhu/gorm/dialects/sqlite"   // sqlite database driver
-	"github.com/rspindola/boilerplate_golang_api/api/models"
+	"github.com/rspindola/boilerplate_golang_api/models"
 )
 
 type Server struct {

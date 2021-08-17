@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/rspindola/boilerplate_golang_api/api/models"
+	"github.com/rspindola/boilerplate_golang_api/models"
 	"gopkg.in/go-playground/assert.v1"
 )
 

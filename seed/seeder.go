@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/jinzhu/gorm"
-	"github.com/rspindola/boilerplate_golang_api/api/models"
+	"github.com/rspindola/boilerplate_golang_api/models"
 )
 
 var users = []models.User{
